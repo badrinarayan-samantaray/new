@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '../components/ui/avatar';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,8 +7,10 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+} from '../components/ui/dropdown-menu';
 import { User, LogIn, UserPlus, Shield } from 'lucide-react';
+import { supply_chain_rust_backend } from "../../../declarations/supply_chain_rust_backend";
+
 
 const UserProfileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

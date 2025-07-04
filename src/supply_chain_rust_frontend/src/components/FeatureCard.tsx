@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { supply_chain_rust_backend } from "../../../declarations/supply_chain_rust_backend";
+
 
 interface FeatureCardProps {
   icon: string;

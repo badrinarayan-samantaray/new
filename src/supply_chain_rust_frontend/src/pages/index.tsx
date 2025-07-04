@@ -8,6 +8,8 @@ import CertificationManager from '../components/CertificationManager';
 import UserProfileMenu from '../components/UserProfileMenu';
 import FeatureCard from '../components/FeatureCard';
 import { Product, Transaction } from '../types/SupplyChain';
+import { supply_chain_rust_backend } from '../../../declarations/supply_chain_rust_backend';
+
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('register');
